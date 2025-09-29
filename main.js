@@ -42,7 +42,8 @@ const Hit(player) => {
     else {otherDeck.push(mainDeck[randomCardIndex])};
     
     const card = document.createElement("div")
-    playerHand.appendChild(card);
+    playerHand.appendChild(card)
+    
 
     mainDeck.splice(index, randomCardIndex)
 }
