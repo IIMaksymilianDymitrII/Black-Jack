@@ -18,7 +18,7 @@ colorArr.forEach(color => {
         
         mainDeck[index].figure.push(figure);
 
-        if (figure === "J" || figure === "Q" || figure === "K"){mainDeck.push = {figure: figure, color:color, value: 10}};
+     if (figure === "J" || figure === "Q" || figure === "K"){mainDeck.push = {figure: figure, color:color, value: 10}};
         if (figure === "A"){
             // A = 1  or a == 11
             mainDeck.push = {figure: figure, color:color, value: 1}
